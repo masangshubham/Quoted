@@ -4,7 +4,7 @@ import { UilImageDownload } from "@iconscout/react-unicons";
 function Options(props) {
   return (
     <div className="flex justify-center">
-      <div className="absolute flex justify-center lg:bottom-56 md:bottom-40">
+      <div className="absolute flex justify-center lg:bottom-56 md:bottom-40 sm:bottom-10">
         <button
           onClick={props.onInput}
           className="p-3 px-9 bg-slate-800 text-white rounded-3xl font-poppins font-semibold"
